@@ -1,9 +1,9 @@
 language: python
 python:
-  - "2.7"
+  - "2.6"
 install:
   - echo "Aqui se instalan las dependencia"
- # - pip install django
+  - pip install --upgrade pip
  
 before_script:
   - echo "Antes de ejecutar un script"
