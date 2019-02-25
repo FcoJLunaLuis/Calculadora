@@ -4,6 +4,7 @@ python:
 install:
   - echo "Aqui se instalan las dependencia"
   - pip install --upgrade pip
+  - pip install virtualenv
  
 before_script:
   - echo "Antes de ejecutar un script"
